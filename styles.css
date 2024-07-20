@@ -1,0 +1,261 @@
+/* General Styles */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    margin-right: 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #333;
+}
+
+/* Main Content */
+main {
+    padding-top: 6rem;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(to right, #0056b3, #007bff);
+    color: #fff;
+    padding: 8rem 0;
+    text-align: center;
+}
+
+.hero-section h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.cta-button-secondary {
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.cta-button-secondary:hover {
+    transform: scale(1.05);
+    background-color: #fff;
+    color: #007bff;
+}
+
+.cta-button-secondary:active {
+    background-color: #ddd;
+    color: #007bff;
+}
+
+/* Sections */
+.section-padding {
+    padding: 4rem 0;
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.bg-gray-100 {
+    background-color: #f7fafc;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+/* Cards */
+.experience-card, .project-card, .education-card, .certification-card {
+    background-color: #f7fafc;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+    padding: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.experience-card:hover, .project-card:hover, .education-card:hover, .certification-card:hover {
+    transform: scale(1.05);
+}
+
+.certification-card {
+    padding: 1rem;
+}
+
+.certification-card h3 {
+    display: flex;
+    align-items: center;
+}
+
+.certification-card h3 img {
+    margin-right: 0.5rem;
+}
+
+.certification-card a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.certification-card a:hover {
+    color: #0056b3;
+}
+
+.certification-card a:active {
+    color: #003d80;
+}
+
+/* Contact Section */
+.contact-details p {
+    margin-bottom: 1rem;
+}
+
+.contact-details a {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.contact-details a:hover {
+    color: #0056b3;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+#contact-form input, #contact-form textarea {
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+#contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+#contact-form button:hover {
+    background-color: #0056b3;
+}
+
+#contact-form button:active {
+    background-color: #003d80;
+}
+
+/* Footer */
+footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header nav ul {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    header nav ul li {
+        width: auto;
+        text-align: center;
+        margin: 0.5rem 0;
+    }
+
+    .hero-section {
+        padding: 4rem 0;
+    }
+
+    .section-padding {
+        padding: 2rem 0;
+    }
+
+    .experience-card, .project-card, .education-card, .certification-card {
+        padding: 1rem;
+    }
+}
+
+/* Fluid Grid System */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col {
+    flex: 1;
+    padding: 0 15px;
+}
+
+@media (max-width: 768px) {
+    .col {
+        width: 100%;
+    }
+}
+
+
+
+
+
+

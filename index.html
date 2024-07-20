@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio of Vishnu Sai Kodali, an experienced Software Engineer specializing in Full-Stack Development.">
+    <meta name="keywords" content="Vishnu Sai Kodali, Software Engineer, Full-Stack Development, Portfolio, Java, React.js, Spring Boot, AWS">
+    <meta name="author" content="Vishnu Sai Kodali">
+    <title>Vishnu Sai Kodali - Software Engineer Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrQ6Y68AgsQm9F/2G/4ZwQvh+EMG8H+jaZCbPjqj32gzPAVYfi5PzFrO4/BfdrS06zS7dNcz4C6jtyL8sA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-white text-gray-800 font-sans">
+    <header class="bg-blue-500 text-white shadow-sm py-4 fixed w-full z-10 top-0 flex justify-between items-center">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#about" class="nav-link text-white hover:text-gray-400">About</a></li>
+                    <li><a href="#skills" class="nav-link text-white hover:text-gray-400">Skills</a></li>
+                    <li><a href="#experience" class="nav-link text-white hover:text-gray-400">Experience</a></li>
+                    <li><a href="#projects" class="nav-link text-white hover:text-gray-400">Projects</a></li>
+                    <li><a href="#education" class="nav-link text-white hover:text-gray-400">Education</a></li>
+                    <li><a href="#certifications" class="nav-link text-white hover:text-gray-400">Certifications</a></li>
+                    <li><a href="#contact" class="nav-link text-white hover:text-gray-400">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main class="pt-20">
+        <section id="hero" class="hero-section bg-gradient-to-r from-blue-700 to-blue-500 text-white text-center py-32">
+            <div class="container mx-auto">
+                <h2 class="text-4xl md:text-6xl font-bold mb-4">Vishnu Sai Kodali</h2>
+                <p id="hero-text" class="text-xl md:text-2xl mb-8">Software Engineer</p>
+                <div class="flex justify-center space-x-4 mt-8">
+                    <a href="Vishnu_Resume.pdf" download class="cta-button-secondary border border-white text-white transform hover:scale-105 transition-transform duration-300"><i class="fas fa-file-download mr-2"></i>Download Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section-padding bg-white py-16">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-justify">
+                <h2 class="section-title text-3xl font-bold mb-4 text-black text-center">About Me</h2>
+                <p class="text-lg mb-8 max-w-3xl mx-auto">With over 3 years of experience in full-stack development, I specialize in creating responsive and user-centric web applications. My expertise in Agile methodologies and the Software Development Life Cycle (SDLC) allows me to deliver innovative, robust solutions using a variety of modern technologies and frameworks. Committed to continuous learning and improvement, I combine technical acumen with a strategic approach to drive business growth and enhance team effectiveness.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="section-padding bg-gray-100 py-16">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="section-title text-3xl font-bold mb-4 text-black">Technical Skills</h2>
+                <div class="skills-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="skill-category p-4 bg-white rounded shadow transform hover:scale-105 transition-transform duration-300">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Languages</h3>
+                        <p>Core Java, Java 8/11, Python, SQL</p>
+                    </div>
+                    <div class="skill-category p-4 bg-white rounded shadow transform hover:scale-105 transition-transform duration-300">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Frameworks</h3>
+                        <p>Spring MVC, Spring Boot, Spring Security, Microservices, Hibernate, JPA, JSF, Node.js</p>
+                    </div>
+                    <div class="skill-category p-4 bg-white rounded shadow transform hover:scale-105 transition-transform duration-300">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Web Technologies</h3>
+                        <p>HTML, CSS, JavaScript, TypeScript, Bootstrap, jQuery, Ajax, JSON, XML, React.js</p>
+                    </div>
+                    <div class="skill-category p-4 bg-white rounded shadow transform hover:scale-105 transition-transform duration-300">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">AWS</h3>
+                        <p>EC2, IAM, S3, CloudWatch, Lambda</p>
+                    </div>
+                    <div class="skill-category p-4 bg-white rounded shadow transform hover:scale-105 transition-transform duration-300">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Application Server</h3>
+                        <p>Apache Tomcat, IBM Web Sphere, JBoss</p>
+                    </div>
+                    <div class="skill-category p-4 bg-white rounded shadow transform hover:scale-105 transition-transform duration-300">
+                        <h3 class="text-xl font-semibold mb-2 text-gray-800">Databases</h3>
+                        <p>MySQL, MS SQL Server, PostgreSQL, Oracle, MongoDB</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section-padding bg-white py-16">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-justify">
+                <h2 class="section-title text-3xl font-bold mb-4 text-black text-center">Work Experience</h2>
+                <div class="experience-card p-6 bg-gray-100 rounded shadow mb-6 transform hover:scale-105 transition-transform duration-300">
+                    <h3 class="text-xl font-semibold flex items-center"><img src="images/walgreens.png" alt="Walgreens Logo" class="inline-block w-12 h-12 mr-2">Walgreens, USA</h3>
+                    <p>Software Engineer | Feb 2024 - Present</p>
+                    <ul class="list-disc pl-5 text-left mt-4">
+                        <li>Managed software projects, consistently using Agile methodologies to meet project deadlines and enhance client satisfaction.</li>
+                        <li>Developed robust and scalable applications leveraging Core Java and Java 8/11, implementing advanced Object-Oriented Programming techniques to enhance code performance and maintainability.</li>
+                        <li>Integrated Spring MVC, Spring Boot, and Spring Security frameworks to develop secure, high-performance web applications.</li>
+                        <li>Used React.js to create views to hook up models to the DOM and synchronize data with the server as a single-page application.</li>
+                        <li>Designed comprehensive technical solutions using UML, including use cases, class diagrams, and sequence diagrams, to translate business requirements into detailed technical designs.</li>
+                        <li>Built-up full-stack applications using Node.js for server-side logic and React.js for dynamic, responsive front-end interfaces.</li>
+                        <li>Used JSP, JSTL, and JavaBeans to create dynamic web applications, efficiently managing client-server interactions to deliver responsive, user-friendly interfaces.</li>
+                        <li>Implemented RESTful APIs and microservices architecture, integrating with AWS services like EC2, S3, Lambda, and RDS for robust backend functionality.</li>
+                        <li>Connected Node.js applications to various databases, including MongoDB and MySQL, ensuring robust data management and retrieval.</li>
+                    </ul>
+                </div>
+                <div class="experience-card p-6 bg-gray-100 rounded shadow mb-6 transform hover:scale-105 transition-transform duration-300">
+                    <h3 class="text-xl font-semibold flex items-center"><img src="images/mindtree.png" alt="Mindtree Logo" class="inline-block w-12 h-12 mr-2">Mindtree, India</h3>
+                    <p>Software Engineer | Jun 2019 - Dec 2021</p>
+                    <ul class="list-disc pl-5 text-left mt-4">
+                        <li>Participated in Agile development processes, contributing to sprint planning, daily stand-ups, and retrospective meetings.</li>
+                        <li>Utilized HTML, CSS, JavaScript, Bootstrap, jQuery, Ajax, JSON, and XML to create engaging user interfaces and enhance interactive web experiences.</li>
+                        <li>Built web applications using JSP custom tag libraries and Struts Action classes and designed Java Servlets and Objects according to J2EE standards.</li>
+                        <li>Designed and developed reusable components in React.js, improving code maintainability and enhancing the scalability of web applications.</li>
+                        <li>Utilized AWS Lambda for serverless computing, reducing infrastructure overhead and costs.</li>
+                        <li>Designed and implemented microservices architecture, leveraging Hibernate and JPA for seamless database interactions with MySQL, MS SQL Server, MongoDB, and other databases.</li>
+                        <li>Automated build and deployment processes, ensuring continuous integration and delivery of high-quality software using Jenkins.</li>
+                        <li>Performed rigorous unit testing with JUnit, maintained code integrity using GitLab, and fostered a collaborative environment for team-driven innovation.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section-padding bg-gray-100 py-16">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-justify">
+                <h2 class="section-title text-3xl font-bold mb-4 text-black text-center">Projects</h2>
+                <div class="project-card p-6 bg-white rounded shadow mb-6 transform hover:scale-105 transition-transform duration-300">
+                    <h3 class="text-xl font-semibold">Social Research Organization Web Application</h3>
+                    <ul class="list-disc pl-5 text-left mt-4">
+                        <li>Implemented automatic scaling with a tailored launch template, slashing server downtime by 50% during peak traffic.</li>
+                        <li>Strengthened security by implementing SSL/TLS encryption, reducing unauthorized access risk by 70%.</li>
+                        <li>Integrated AWS S3, API Gateway, Lambda, DynamoDB, and CloudWatch for seamless operations and monitoring.</li>
+                    </ul>
+                </div>
+                <div class="project-card p-6 bg-white rounded shadow mb-6 transform hover:scale-105 transition-transform duration-300">
+                    <h3 class="text-xl font-semibold">StreamFlixDB: Advanced Database Management for Video Streaming Platform</h3>
+                    <ul class="list-disc pl-5 text-left mt-4">
+                        <li>Designed and implemented a comprehensive SQL Server database for a Video Streaming Platform, incorporating ORM and ER diagrams to model key entities such as movies, budgets, ratings, and global collections.</li>
+                        <li>Developed complex SQL queries, triggers, and stored procedures for a Video Streaming Platform.</li>
+                        <li>Explored transitioning to Couchbase for enhanced scalability in a cloud environment.</li>
+                    </ul>
+                </div>
+                <div class="project-card p-6 bg-white rounded shadow mb-6 transform hover:scale-105 transition-transform duration-300">
+                    <h3 class="text-xl font-semibold">IT Asset Management System</h3>
+                    <ul class="list-disc pl-5 text-left mt-4">
+                        <li>Successfully implemented IT Asset Management solution at IniTech Solutions, streamlining serial number monitoring, asset IDs, and identifiers, leading to the elimination of redundant and invalid records.</li>
+                        <li>Optimized digital workflows and operations, reducing costs through efficient monitoring and reporting of asset ownership and value over the asset lifecycle.</li>
+                        <li>Designed user-friendly UI prototype using Figma for seamless integration.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section-padding bg-white py-16">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-justify">
+                <h2 class="section-title text-3xl font-bold mb-4 text-black text-center">Education</h2>
+                <div class="education-card p-6 bg-gray-100 rounded shadow mb-6 transform hover:scale-105 transition-transform duration-300">
+                    <h3 class="text-xl font-semibold flex items-center"><img src="images/asu.png" alt="Arizona State University Logo" class="inline-block w-12 h-12 mr-2">Arizona State University, Tempe, Arizona</h3>
+                    <p>Master of Science in Information Technology | Dec 2023</p>
+                </div>
+                <div class="education-card p-6 bg-gray-100 rounded shadow mb-6 transform hover:scale-105 transition-transform duration-300">
+                    <h3 class="text-xl font-semibold flex items-center"><img src="images/gitam.png" alt="GITAM Logo" class="inline-block w-12 h-12 mr-2">GITAM (Deemed to be University), Hyderabad, Telangana</h3>
+                    <p>Bachelor of Technology in Computer Science | Jun 2021</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="section-padding bg-gray-100 py-16">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-justify">
+                <h2 class="section-title text-3xl font-bold mb-4 text-black text-center">Certifications</h2>
+                <div class="certification-card p-6 bg-white rounded shadow mb-6 transform hover:scale-105 transition-transform duration-300">
+                    <h3 class="text-xl font-semibold flex items-center"><img src="images/aws.png" alt="AWS Logo" class="inline-block w-12 h-12 mr-2"><a href="https://drive.google.com/file/d/1XQ_xRHjImX-OkQUUzuEzctEMx5hEYK6g/view?usp=sharing" class="fancy-link" target="_blank">AWS Certified Solutions Architect - Associate</a></h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section-padding bg-gray-100 py-16">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="section-title text-3xl font-bold mb-4 text-black">Contact</h2>
+                <p class="mb-4">I'm always open to new opportunities and collaborations. Reach out to me via email, phone, or LinkedIn.</p>
+                <div class="contact-details text-lg mb-8">
+                    <p><i class="fas fa-envelope mr-2"></i>Email: <a href="mailto:vishnusaik55@gmail.com" class="underline text-black">vishnusaik55@gmail.com</a></p>
+                    <p><i class="fas fa-phone mr-2"></i>Phone: +1 (602) 921-6730</p>
+                    <div class="flex justify-center mt-4">
+                        <a href="https://github.com/vskodali" class="text-black mx-2"><img src="images/github.png" alt="GitHub" class="w-8 h-8"></a>
+                        <a href="https://linkedin.com/in/vishnusaikodali" class="text-black mx-2"><img src="images/linkedin.png" alt="LinkedIn" class="w-8 h-8"></a>
+                    </div>
+                </div>
+                <form id="contact-form" class="max-w-xl mx-auto">
+                    <div class="mb-4">
+                        <label for="name" class="block text-left text-gray-700">Name</label>
+                        <input type="text" id="name" name="name" class="w-full px-4 py-2 border rounded" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-left text-gray-700">Email</label>
+                        <input type="email" id="email" name="email" class="w-full px-4 py-2 border rounded" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="block text-left text-gray-700">Message</label>
+                        <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 border rounded" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button bg-blue-500 text-white">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-blue-500 text-white py-8">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p>&copy; 2024 Vishnu Sai Kodali. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
